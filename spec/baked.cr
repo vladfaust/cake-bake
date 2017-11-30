@@ -1,2 +1,2 @@
-require "../src/bake"
-bake("../Cakefile")
+require "../src/cake-bake"
+Cake.bake("../Cakefile")

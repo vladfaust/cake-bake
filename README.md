@@ -1,6 +1,6 @@
-# Bake
+# Cake-Bake
 
-Bake [Cakefile](https://github.com/axvm/cake) into native Crystal code.
+Cake-Bake *[ka-ke-ba-ke]* allows to bake [Cakefile](https://github.com/axvm/cake) into native Crystal code.
 
 ## Why?
 
@@ -18,8 +18,8 @@ targets:
     main: src/run/cake.cr
 
 dependencies:
-  bake:
-    github: vladfaust/bake
+  cake-bake:
+    github: vladfaust/cake-bake.cr
 ```
 
 ## Usage
@@ -34,11 +34,13 @@ task :foo
 end
 ```
 
-`./src/run/cake`:
+`./src/run/cake.cr`:
 
 ```crystal
-require "bake"
-bake("../../Cakefile") # Full path to Cakefile needed to properly resolve requires (see above)
+require "cake-bake"
+Cake.bake("../../Cakefile") # Full path to Cakefile needed to properly resolve requires (see above)
+
+# The Cakefile code will be put here, yay
 ```
 
 Then execute from `./`:
@@ -58,7 +60,7 @@ bar
 
 ## Contributing
 
-1. Fork it ( https://github.com/vladfaust/bake/fork )
+1. Fork it ( https://github.com/vladfaust/cake-bake.cr/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
