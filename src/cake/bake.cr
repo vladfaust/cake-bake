@@ -3,6 +3,10 @@ module Cake
   macro bake(cakefile_path = "./Cakefile")
     COMPILED_TASKS = [] of String
 
+    private macro desc(description)
+      # You don't need descriptions in the compiled code?
+    end
+
     private macro task(name, &block)
       \{% COMPILED_TASKS.push(name) %}
 
