@@ -1,9 +1,9 @@
 # Cake-Bake
 
 [![Built with Crystal](https://img.shields.io/badge/built%20with-crystal-000000.svg?style=flat-square)](https://crystal-lang.org/)
-[![Build status](https://img.shields.io/travis/com/vladfaust/cake-bake.cr/master.svg?style=flat-square)](https://travis-ci.com/vladfaust/cake-bake.cr)
-[![API Docs](https://img.shields.io/badge/api_docs-online-brightgreen.svg?style=flat-square)](https://github.vladfaust.com/cake-bake.cr)
-[![Releases](https://img.shields.io/github/release/vladfaust/cake-bake.cr.svg?style=flat-square)](https://github.com/vladfaust/cake-bake.cr/releases)
+[![Build status](https://img.shields.io/travis/com/vladfaust/cake-bake/master.svg?style=flat-square)](https://travis-ci.com/vladfaust/cake-bake)
+[![API Docs](https://img.shields.io/badge/api_docs-online-brightgreen.svg?style=flat-square)](https://github.vladfaust.com/cake-bake)
+[![Releases](https://img.shields.io/github/release/vladfaust/cake-bake.svg?style=flat-square)](https://github.com/vladfaust/cake-bake/releases)
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/veelenga/awesome-crystal)
 [![vladfaust.com](https://img.shields.io/badge/style-.com-lightgrey.svg?longCache=true&style=flat-square&label=vladfaust&colorB=0a83d8)](https://vladfaust.com)
 [![Patrons count](https://img.shields.io/badge/dynamic/json.svg?label=patrons&url=https://www.patreon.com/api/user/11296360&query=$.included[0].attributes.patron_count&style=flat-square&colorB=red&maxAge=86400)](https://www.patreon.com/vladfaust)
@@ -38,7 +38,7 @@ targets:
 
 dependencies:
   cake-bake:
-    github: vladfaust/cake-bake.cr
+    github: vladfaust/cake-bake
     version: ~> 0.2.1
 ```
 
@@ -80,7 +80,7 @@ bar
 
 ## Contributing
 
-1. Fork it ( https://github.com/vladfaust/cake-bake.cr/fork )
+1. Fork it ( https://github.com/vladfaust/cake-bake/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
