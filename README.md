@@ -1,5 +1,14 @@
 # Cake-Bake
 
+[![Built with Crystal](https://img.shields.io/badge/built%20with-crystal-000000.svg?style=flat-square)](https://crystal-lang.org/)
+[![Build status](https://img.shields.io/travis/com/vladfaust/cake-bake.cr/master.svg?style=flat-square)](https://travis-ci.com/vladfaust/cake-bake.cr)
+[![API Docs](https://img.shields.io/badge/api_docs-online-brightgreen.svg?style=flat-square)](https://github.vladfaust.com/cake-bake.cr)
+[![Releases](https://img.shields.io/github/release/vladfaust/cake-bake.cr.svg?style=flat-square)](https://github.com/vladfaust/cake-bake.cr/releases)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/veelenga/awesome-crystal)
+[![vladfaust.com](https://img.shields.io/badge/style-.com-lightgrey.svg?longCache=true&style=flat-square&label=vladfaust&colorB=0a83d8)](https://vladfaust.com)
+[![Patrons count](https://img.shields.io/badge/dynamic/json.svg?label=patrons&url=https://www.patreon.com/api/user/11296360&query=$.included[0].attributes.patron_count&style=flat-square&colorB=red&maxAge=86400)](https://www.patreon.com/vladfaust)
+[![Gitter chat](https://img.shields.io/badge/chat%20on-gitter-green.svg?colorB=ED1965&logo=gitter&style=flat-square)](https://gitter.im/vladfaust/Lobby)
+
 Cake-Bake *[ka-ke-ba-ke]* allows to bake [Cakefile](https://github.com/axvm/cake) into native Crystal code.
 
 ## Why?
