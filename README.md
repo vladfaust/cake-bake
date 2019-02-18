@@ -11,9 +11,19 @@
 
 Cake-Bake *[ka-ke-ba-ke]* allows to bake [Cakefile](https://github.com/axvm/cake) into native Crystal code.
 
-## Why?
+## Supporters
 
-Because sometimes [cake]((https://github.com/axvm/cake)) tasks are wanted to be run as binaries.
+Thanks to all my patrons, I can continue working on beautiful Open Source Software! 🙏
+
+[Alexander Maslov](https://seendex.ru), [Lauri Jutila](https://github.com/ljuti)
+
+*You can become a patron too in exchange of prioritized support and other perks*
+
+[![Become Patron](https://vladfaust.com/img/patreon-small.svg)](https://www.patreon.com/vladfaust)
+
+## About
+
+Why? Because sometimes [cake]((https://github.com/axvm/cake)) tasks are wanted to be run as binaries.
 
 For example, to run from a Docker container with an already built application: `docker run my-crystal-app bin/cake db:migrate`.
 
