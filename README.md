@@ -39,6 +39,7 @@ targets:
 dependencies:
   cake-bake:
     github: vladfaust/cake-bake.cr
+    version: ~> 0.2.1
 ```
 
 ## Usage
