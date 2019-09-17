@@ -49,7 +49,7 @@ Given `./Cakefile`:
 ```crystal
 require "./src/some_file" # These requires
 
-task :foo
+task :foo do
   puts "bar"
 end
 ```
@@ -66,10 +66,10 @@ Cake.bake("../../Cakefile") # Full path to Cakefile needed to properly resolve r
 Then execute from `./`:
 
 ```shell
-$ crystal src/run/cake -- foo
+$ crystal src/run/cake.cr -- foo
 bar
 
-$ crystal build src/run/cake
+$ crystal build src/run/cake.cr
 $ ./cake foo
 bar
 
